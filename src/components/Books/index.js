@@ -48,10 +48,6 @@ export default class Books extends React.Component {
       img_url: 'https://whatdewhat.com/wp-content/uploads/2017/06/image-mcmbuzz.com_.jpg',
     }];
 
-    function test(){
-
-    }
-
     return (
       <div id="background">
         <div className="title">
