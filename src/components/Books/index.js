@@ -7,7 +7,7 @@ export default class Books extends React.Component {
   render() {
     let books = [{
       id: 1,
-      title: 'Harry Potter and the Philosophers Stone',
+      title: "Harry Potter and the Philosophers Stone",
       year: 1997,
       img_url: 'https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_23gvk690/def_height/500/def_width/500/version/100012/type/1',
     },
@@ -48,17 +48,25 @@ export default class Books extends React.Component {
       img_url: 'https://whatdewhat.com/wp-content/uploads/2017/06/image-mcmbuzz.com_.jpg',
     }];
 
-    return (
-      <div id="books">
-        <h1>Harry Potter Books</h1>
+    function test(){
 
-        {books.map(function(book) {
-          return (
-            <Book title={book.title}
-                  img_url={book.img_url}
-                  year={book.year} />
-          )
-        })}
+    }
+
+    return (
+      <div id="background">
+        <div className="title">
+          <h1>Harry Potter Books</h1>
+        </div>
+
+        <div id="books">
+          {books.map(function(book) {
+            return (
+              <Book title={book.title}
+                    img_url={book.img_url}
+                    year={book.year} />
+            )
+          })}
+        </div>
       </div>
     )
   }

@@ -6,15 +6,23 @@
 .img-cover {
   width: 100% !important;
   border-radius: 0% !important;
-  height: 380px;
+  height: 22em;
 }
 
 .description{
-  width: 60%;
-  display: inline-block;
+  width: 50%;
 }
 
 .author-img{
-  width: 40%;
-  display: inline-block;
+  width: 15%;
+  height: 330px;
+}
+
+.about-hp{
+  margin-right: 5em;
+  margin-left: 5em;
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

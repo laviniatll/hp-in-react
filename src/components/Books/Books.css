@@ -1,7 +1,28 @@
+.title h1{
+  text-align: center;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.89);
+  border: 0.5em solid white;
+  border-radius: 10%;
+  font-size: 2.5em;
+  margin: 0;
+}
+
 #books {
-  margin: 5em;
-  border: 2px solid red;
-  border-radius: 0.1%;
+  margin: 5em 9em 0;
+  border: 2px solid rgb(59, 32, 14);
+  border-radius: 1.4%;
   padding-left: 7em;
   padding-right: 7em;
+  background: rgba(150, 99, 75, 0.826);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#background{
+  background-image: url('https://wallpaperaccess.com/full/838646.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: 50% -60%;
 }
